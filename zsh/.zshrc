@@ -11,7 +11,16 @@ ZSH_THEME="kennedy"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias code='cd ~/code/'
+alias kg='cd ~/code/kennedysgarage/'
+alias sb='cd ~/code/startupbus.com/'
 alias galore='cd ~/code/galore/wp-content/themes/galoremag/'
+alias kv='cd ~/code/kenvak/'
+alias gs='cd ~/code/gradespotter.com/'
+alias sc='cd ~/code/statuschart/'
+alias arc='cd ~/code/arctap/'
+alias ti='cd ~/code/theronind/'
+alias php='php -S localhost:8888'
+alias jek='jekyll serve --watch'
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -49,3 +58,5 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
