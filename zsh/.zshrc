@@ -20,7 +20,7 @@ alias sc='cd ~/code/statuschart/'
 alias arc='cd ~/code/arctap/'
 alias ti='cd ~/code/theronindustries/'
 alias ts='cd ~/code/theronstudios/'
-alias vlc='cd ~/code/valoancaptain/'
+alias vlc='cd ~/code/valoancaptain/wp-content/themes/valoancaptain/'
 alias php='php -S localhost:8888'
 alias jek='jekyll serve --watch'
 
