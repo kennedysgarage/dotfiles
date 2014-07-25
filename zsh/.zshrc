@@ -1,28 +1,11 @@
-# Path to your oh-my-zsh configuration.
-ZSH=$HOME/.oh-my-zsh
+# Path to your oh-my-zsh installation.
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 ZSH_THEME="kennedy"
-
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-alias code='cd ~/code/'
-alias kg='cd ~/code/kennedysgarage/'
-alias sb='cd ~/code/startupbus.com/'
-alias galore='cd ~/code/galore/wp-content/themes/galoremag/'
-alias kv='cd ~/code/kenvak/'
-alias gs='cd ~/code/gradespotter.com/'
-alias sc='cd ~/code/statuschart/'
-alias arc='cd ~/code/arctap/'
-alias ti='cd ~/code/theronindustries/'
-alias ts='cd ~/code/theronstudios/'
-alias vlc='cd ~/code/valoancaptain/wp-content/themes/valoancaptain/'
-alias php='php -S localhost:8888'
-alias jek='jekyll serve --watch'
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -57,8 +40,45 @@ plugins=(git kennedy)
 
 source $ZSH/oh-my-zsh.sh
 
-# Customize to your needs...
+# User configuration
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"
+# export MANPATH="/usr/local/man:$MANPATH"
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+# You may need to manually set your language environment
+# export LANG=en_US.UTF-8
+
+# Preferred editor for local and remote sessions
+# if [[ -n $SSH_CONNECTION ]]; then
+#   export EDITOR='vim'
+# else
+#   export EDITOR='mvim'
+# fi
+
+# Compilation flags
+# export ARCHFLAGS="-arch x86_64"
+
+# ssh
+# export SSH_KEY_PATH="~/.ssh/dsa_id"
+
+# Set personal aliases, overriding those provided by oh-my-zsh libs,
+# plugins, and themes. Aliases can be placed here, though oh-my-zsh
+# users are encouraged to define aliases within the ZSH_CUSTOM folder.
+# For a full list of active aliases, run `alias`.
+#
+# Example aliases
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
+alias code='cd ~/code/'
+alias kg='cd ~/code/kennedysgarage/'
+alias sb='cd ~/code/startupbus.com/'
+alias galore='cd ~/code/galore/wp-content/themes/galoremag/'
+alias kv='cd ~/code/kenvak/'
+alias gs='cd ~/code/gradespotter.com/'
+alias sc='cd ~/code/statuschart/'
+alias arc='cd ~/code/arctap/'
+alias ti='cd ~/code/theronindustries/'
+alias ts='cd ~/code/theronstudios/'
+alias vlc='cd ~/code/valoancaptain/wp-content/themes/valoancaptain/'
+alias php='php -S localhost:8888'
+alias jek='jekyll serve --watch'
