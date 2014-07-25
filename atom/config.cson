@@ -1,0 +1,28 @@
+'exception-reporting':
+  'userId': 'fd863daa-82bb-5673-31d0-9c4217147c53'
+'release-notes':
+  'viewedVersion': '0.95.0'
+'welcome':
+  'showOnStartup': false
+'metrics':
+  'userId': '9121583556b542e9f1fa704189d88f8a29e69a80'
+'editor':
+  'fontSize': 15
+'core':
+  'themes': [
+    'atom-dark-ui'
+    'blackboard'
+  ]
+  'ignoredNames': [
+    '.git'
+    '.DS_Store'
+    '.vagrant'
+  ]
+  'disabledPackages': [
+    'autocomplete'
+    'wrap-guide'
+    'autocomplete-plus'
+  ]
+'tree-view':
+  'hideIgnoredNames': true
+'grammar-selector': {}
